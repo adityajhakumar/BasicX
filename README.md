@@ -1,5 +1,8 @@
 
+
 # BasicX Language
+
+![BasicX Logo](logo.jpg)
 
 BasicX is a simple programming language designed for educational purposes, created by Aditya Kumar Jha. It supports basic arithmetic operations and has a simple syntax for expressing mathematical expressions.
 
