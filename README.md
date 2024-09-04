@@ -17,8 +17,9 @@ BasicX is a simple programming language designed for educational purposes, creat
 4. [Usage](#usage)
    - [Example Programs](#example-programs)
 5. [Creating Your Own Programming Language](#creating-your-own-programming-language)
-6. [Contributing](#contributing)
-7. [License](#license)
+6. [Directory Structure](#directory-structure)
+7. [Contributing](#contributing)
+8. [License](#license)
 
 ## Introduction
 
@@ -151,6 +152,36 @@ Creating a programming language involves several key components: lexer, parser, 
    - Create comprehensive tests for your language’s features and document the new syntax and capabilities. Use the structure provided in the BasicX README as a guide.
 
 The BasicX repository serves as a foundational framework, which you can adapt and expand based on your language’s requirements.
+
+## Directory Structure
+
+Here is the directory structure of the BasicX repository:
+
+```
+BasicX/
+│
+├── bin/
+│   └── main.c              # Entry point for the BasicX interpreter
+│
+├── include/
+│   ├── ast.h               # Header file for abstract syntax tree (AST)
+│   ├── errors.h            # Header file for error handling
+│   ├── interpreter.h       # Header file for interpreter functions
+│   ├── lexer.h             # Header file for lexer functions
+│   └── parser.h            # Header file for parser functions
+│
+├── src/
+│   ├── ast.c               # Source file for abstract syntax tree (AST)
+│   ├── errors.c            # Source file for error handling
+│   ├── interpreter.c       # Source file for interpreter functions
+│   ├── lexer.c             # Source file for lexer functions
+│   └── parser.c            # Source file for parser functions
+│
+├── logo.jpg                # Logo for the BasicX project
+├── Makefile                # Makefile for building the project
+├── README.md               # This README file
+└── src/                    # Directory for source files
+```
 
 ## Contributing
 
